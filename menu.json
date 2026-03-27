@@ -1,0 +1,33 @@
+{
+    "categories": [
+      { "id": "starters", "name": "Starters" },
+      { "id": "salads", "name": "Salads" },
+      { "id": "specialty", "name": "Specialty" }
+    ],
+    "items": [
+      {
+        "name": "Lobster Bisque",
+        "price": "$5.95",
+        "category": "starters",
+        "ingredients": "Lorem, deren, trataro, filede, nerada"
+      },
+      {
+        "name": "Bread Barrel",
+        "price": "$6.95",
+        "category": "specialty",
+        "ingredients": "Lorem, deren, trataro, filede, nerada"
+      },
+      {
+        "name": "Crab Cake",
+        "price": "$7.95",
+        "category": "starters",
+        "ingredients": "A delicate crab cake served on a toasted roll with lettuce and tartar sauce"
+      },
+      {
+        "name": "Caesar Selections",
+        "price": "$8.95",
+        "category": "salads",
+        "ingredients": "Lorem, deren, trataro, filede, nerada"
+      }
+    ]
+  }
