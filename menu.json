@@ -1,33 +1,1455 @@
 {
     "categories": [
-      { "id": "starters", "name": "Starters" },
-      { "id": "salads", "name": "Salads" },
-      { "id": "specialty", "name": "Specialty" }
+      { "id": "coffee", "name": "Coffee - قهوة" },
+      { "id": "hot-drinks", "name": "Hot Drinks - مشروبات ساخنة" },
+      { "id": "espresso", "name": "Espresso - اسبريسو" } ,
+      { "id": "ice-coffee", "name": "Ice Coffee - آيس كوفي" } ,
+      { "id": "frappe", "name": "Frappe - فرابتشينو" } ,
+      { "id": "smoothie", "name": "Smoothie - سموزي" } ,
+      { "id": "smoothie-mix", "name": "Smoothie Mix - سموزي ميكس" } ,
+      { "id": "soft-drinks", "name": "Soft Drinks - مشروبات غازية" } ,
+      { "id": "fresh-juice", "name": "Fresh Juice - عصائر فريش" } ,
+      { "id": "cocktail", "name": "Cocktail - كوكتيل" } ,
+      { "id": "milkshake", "name": "Milkshake - ميلك شيك" } ,
+      { "id": "main-dish", "name": "Main Dish - الأطباق الرئيسية" } ,
+      { "id": "pasta", "name": "Pasta - مكرونة" } ,
+      { "id": "pizza", "name": "Pizza - بيتزا" } ,
+      { "id": "pans", "name": "Pans - طاسات" } ,
+      { "id": "crepe", "name": "Crepe - كريب" } ,
+      { "id": "crepe-mix", "name": "Crepe-mix - كريب ميكس" } ,
+      { "id": "sandwiches", "name": "Sandwiches - ساندوتشات" } ,
+      { "id": "salad", "name": "Salad - سلطات" } ,
+      { "id": "appetizers", "name": "Appetizers - المقبلات" } ,
+      { "id": "snacks", "name": "Snacks - سناكس" } ,
+      { "id": "extras", "name": "Extras - إضافات" } ,
+      { "id": "ice-cream", "name": "Ice Cream - آيس كريم" } ,
+      { "id": "desserts", "name": "Desserts - حلويات" } 
     ],
     "items": [
       {
-        "name": "Lobster Bisque",
-        "price": "$5.95",
-        "category": "starters",
-        "ingredients": "Lorem, deren, trataro, filede, nerada"
+        "name": "Turkish Coffee - قهوة تركي",
+        "price": "35 EGP",
+        "category": "coffee",
+        "ingredients": ""
       },
       {
-        "name": "Bread Barrel",
-        "price": "$6.95",
-        "category": "specialty",
-        "ingredients": "Lorem, deren, trataro, filede, nerada"
+        "name": "Double Turkish Coffee - قهوة تركي دوبل",
+        "price": "45 EGP",
+        "category": "coffee",
+        "ingredients": ""
       },
       {
-        "name": "Crab Cake",
-        "price": "$7.95",
-        "category": "starters",
-        "ingredients": "A delicate crab cake served on a toasted roll with lettuce and tartar sauce"
+        "name": "French Coffee - قهوة فرنساوي",
+        "price": "40 EGP",
+        "category": "coffee",
+        "ingredients": ""
       },
       {
-        "name": "Caesar Selections",
-        "price": "$8.95",
+        "name": "Double French Coffee - قهوة فرنساوي دوبل",
+        "price": "50 EGP",
+        "category": "coffee",
+        "ingredients": ""
+      },
+      {
+        "name": "Hazelnut Coffee - قهوة بندق",
+        "price": "40 EGP",
+        "category": "coffee",
+        "ingredients": ""
+      },
+      {
+        "name": "Double Hazelnut Coffee - قهوة بندق دوبل",
+        "price": "50 EGP",
+        "category": "coffee",
+        "ingredients": ""
+      },
+      {
+        "name": "Flavored Coffee - قهوة أطـعـمـة",
+        "price": "45 EGP",
+        "category": "coffee",
+        "ingredients": "Nutella - Caramel - Vanilla | نوتيلا - كراميل - فانيليا"
+      },
+      {
+        "name": "Black Nescafé - نسكافيه بلاك",
+        "price": "38 EGP",
+        "category": "coffee",
+        "ingredients": ""
+      },
+      {
+        "name": "Nescafé with Milk - نسكافيه باللبن",
+        "price": "45 EGP",
+        "category": "coffee",
+        "ingredients": ""
+      },
+      {
+        "name": "Dark Hot Chocolate - هوت شوكليت دارك",
+        "price": "50 EGP",
+        "category": "coffee",
+        "ingredients": ""
+      },
+      {
+        "name": "White Hot Chocolate - هوت شوكليت وايت",
+        "price": "50 EGP",
+        "category": "coffee",
+        "ingredients": ""
+      },
+      {
+        "name": "Nutella Hot Chocolate - هوت شوكليت نوتيلا",
+        "price": "70 EGP",
+        "category": "coffee",
+        "ingredients": ""
+      },
+      {
+        "name": "Marshmallow Hot Chocolate - هوت شوكليت مارشميلو",
+        "price": "90 EGP",
+        "category": "coffee",
+        "ingredients": ""
+      },
+      {
+        "name": "Tea - شاي",
+        "price": "25 EGP",
+        "category": "hot-drinks",
+        "ingredients": ""
+      },
+      {
+        "name": "Tea Pot (1 Cup) - براد شاي (1 كوب)",
+        "price": "30 EGP",
+        "category": "hot-drinks",
+        "ingredients": ""
+      },
+      {
+        "name": "Tea Pot (2 cups) - براد شاي (2 كوب)",
+        "price": "50 EGP",
+        "category": "hot-drinks",
+        "ingredients": ""
+      },
+      {
+        "name": "Ahmed Tea - شاي احمد",
+        "price": "30 EGP",
+        "category": "hot-drinks",
+        "ingredients": ""
+      },
+      {
+        "name": "Green Tea - شاي أخضر",
+        "price": "30 EGP",
+        "category": "hot-drinks",
+        "ingredients": ""
+      },
+      {
+        "name": "Flavored Ahmed Tea - شاي احمد أطـعـمـة",
+        "price": "35 EGP",
+        "category": "hot-drinks",
+        "ingredients": "peach - mango - mixed berries | خوخ - مانجو - توت"
+      },
+      {
+        "name": "Milk Tea - شاي باللبن",
+        "price": "40 EGP",
+        "category": "hot-drinks",
+        "ingredients": ""
+      },
+      {
+        "name": "Mint - نعناع",
+        "price": "25 EGP",
+        "category": "hot-drinks",
+        "ingredients": ""
+      },
+      {
+        "name": "Anise - ينسون",
+        "price": "25 EGP",
+        "category": "hot-drinks",
+        "ingredients": ""
+      },
+      {
+        "name": "Hibiscus - كركديه",
+        "price": "25 EGP",
+        "category": "hot-drinks",
+        "ingredients": ""
+      },
+      {
+        "name": "Herbal Mix - أعشاب",
+        "price": "45 EGP",
+        "category": "hot-drinks",
+        "ingredients": ""
+      },
+      {
+        "name": "Cinnamon - قرفة",
+        "price": "32 EGP",
+        "category": "hot-drinks",
+        "ingredients": ""
+      },
+      {
+        "name": "Cinnamon with Milk - قرفة باللبن",
+        "price": "55 EGP",
+        "category": "hot-drinks",
+        "ingredients": ""
+      },
+      {
+        "name": "Apple Cinnamon - قرفة تفاح",
+        "price": "55 EGP",
+        "category": "hot-drinks",
+        "ingredients": ""
+      },
+      {
+        "name": "Lemon - ليمون",
+        "price": "30 EGP",
+        "category": "hot-drinks",
+        "ingredients": ""
+      },
+      {
+        "name": "Lemon Ginger - ليمون جنزبيل",
+        "price": "35 EGP",
+        "category": "hot-drinks",
+        "ingredients": ""
+      },
+      {
+        "name": "Ginger - جنزبيل",
+        "price": "30 EGP",
+        "category": "hot-drinks",
+        "ingredients": ""
+      },
+      {
+        "name": "Sahlab - سحلب",
+        "price": "45 EGP",
+        "category": "hot-drinks",
+        "ingredients": ""
+      },
+      {
+        "name": "Sahlab with Nuts - سحلب مكسرات",
+        "price": "55 EGP",
+        "category": "hot-drinks",
+        "ingredients": ""
+      },
+      {
+        "name": "Espresso - اسبريسو",
+        "price": "40 EGP",
+        "category": "espresso",
+        "ingredients": ""
+      },
+      {
+        "name": "Double Espresso - اسبريسو دوبل",
+        "price": "50 EGP",
+        "category": "espresso",
+        "ingredients": ""
+      },
+      {
+        "name": "Macchiato - ميكاتو",
+        "price": "45 EGP",
+        "category": "espresso",
+        "ingredients": ""
+      },
+      {
+        "name": "Affogato Coffee - أفوكاتو كوفي",
+        "price": "50 EGP",
+        "category": "espresso",
+        "ingredients": ""
+      },
+      {
+        "name": "Cappuccino - كابتشينو",
+        "price": "60 EGP",
+        "category": "espresso",
+        "ingredients": "Mocha - Vanilla - Caramel - Hazelnut - Nutella | موكا - فانيليا - كراميل - بندق - نوتيلا"
+      },
+      {
+        "name": "Café Latte - كافيه لاتيه",
+        "price": "60 EGP",
+        "category": "espresso",
+        "ingredients": ""
+      },
+      {
+        "name": "Flat White - فلات وايت",
+        "price": "65 EGP",
+        "category": "espresso",
+        "ingredients": ""
+      },
+      {
+        "name": "Spanish Latte - سبانيش لاتيه",
+        "price": "75 EGP",
+        "category": "espresso",
+        "ingredients": ""
+      },
+      {
+        "name": "American Coffee - امريكان كوفي",
+        "price": "45 EGP",
+        "category": "espresso",
+        "ingredients": ""
+      },
+      {
+        "name": "Vanilla Ice Coffee - آيس كوفي فانيليا",
+        "price": "70 EGP",
+        "category": "ice-coffee",
+        "ingredients": ""
+      },
+      {
+        "name": "Caramel Ice Coffee - آيس كوفي كراميل",
+        "price": "70 EGP",
+        "category": "ice-coffee",
+        "ingredients": ""
+      },
+      {
+        "name": "Hazelnut Ice Coffee - آيس كوفي بندق",
+        "price": "70 EGP",
+        "category": "ice-coffee",
+        "ingredients": ""
+      },
+      {
+        "name": "Iced Mocha - آيس موكا",
+        "price": "75 EGP",
+        "category": "ice-coffee",
+        "ingredients": ""
+      },
+      {
+        "name": "Iced Latte - آيس لاتيه",
+        "price": "70 EGP",
+        "category": "ice-coffee",
+        "ingredients": ""
+      },
+      {
+        "name": "Iced Chocolate - آيس شوكليت",
+        "price": "70 EGP",
+        "category": "ice-coffee",
+        "ingredients": ""
+      },
+      {
+        "name": "Vanilla Frappe - فرابتشينو فانيليا",
+        "price": "70 EGP",
+        "category": "frappe",
+        "ingredients": ""
+      },
+      {
+        "name": "Hazelnut Frappe - فرابتشينو بندق",
+        "price": "70 EGP",
+        "category": "frappe",
+        "ingredients": ""
+      },
+      {
+        "name": "Caramel Frappe - فرابتشينو كراميل",
+        "price": "70 EGP",
+        "category": "frappe",
+        "ingredients": ""
+      },
+      {
+        "name": "Mocha Frappe - فرابتشينو موكا",
+        "price": "75 EGP",
+        "category": "frappe",
+        "ingredients": ""
+      },
+      {
+        "name": "Nutella Frappe - فرابتشينو نوتيلا",
+        "price": "75 EGP",
+        "category": "frappe",
+        "ingredients": ""
+      },
+  
+      {
+        "name": "Pineapple Smoothie - سموزي أناناس",
+        "price": "65 EGP",
+        "category": "smoothie",
+        "ingredients": ""
+      },
+      {
+        "name": "Watermelon Smoothie - سموزي بطيخ",
+        "price": "65 EGP",
+        "category": "smoothie",
+        "ingredients": ""
+      },
+      {
+        "name": "Mango Smoothie - سموزي مانجو",
+        "price": "65 EGP",
+        "category": "smoothie",
+        "ingredients": ""
+      },
+      {
+        "name": "Strawberry Smoothie - سموزي فراولة",
+        "price": "65 EGP",
+        "category": "smoothie",
+        "ingredients": ""
+      },
+      {
+        "name": "Banana Smoothie - سموزي موز",
+        "price": "65 EGP",
+        "category": "smoothie",
+        "ingredients": ""
+      },
+      {
+        "name": "Kiwi Smoothie - سموزي كيوي",
+        "price": "65 EGP",
+        "category": "smoothie",
+        "ingredients": ""
+      },
+      {
+        "name": "Berry Smoothie - سموزي توت",
+        "price": "65 EGP",
+        "category": "smoothie",
+        "ingredients": ""
+      },
+  
+      {
+        "name": "Mango & Strawberry - مانجو فراولة",
+        "price": "80 EGP",
+        "category": "smoothie-mix",
+        "ingredients": ""
+      },
+      {
+        "name": "Mango & Kiwi - مانجو كيوي",
+        "price": "80 EGP",
+        "category": "smoothie-mix",
+        "ingredients": ""
+      },
+      {
+        "name": "Lemon & Mint - ليمون نعناع",
+        "price": "80 EGP",
+        "category": "smoothie-mix",
+        "ingredients": ""
+      },
+  
+      {
+        "name": "Soft Drinks - مشروبات غازية",
+        "price": "35 EGP",
+        "category": "soft-drinks",
+        "ingredients": "Cola - Diet - Sprite - Orange - Apple - Pineapple | كولا - كولا دايت - سبرايت - برتقال - تفاح - أناناس"
+      },
+      {
+        "name": "Schweppes - شويبس",
+        "price": "40 EGP",
+        "category": "soft-drinks",
+        "ingredients": ""
+      },
+      {
+        "name": "Fayrouz - فيروز",
+        "price": "40 EGP",
+        "category": "soft-drinks",
+        "ingredients": ""
+      },
+      {
+        "name": "Birell - بريل",
+        "price": "40 EGP",
+        "category": "soft-drinks",
+        "ingredients": ""
+      },
+      {
+        "name": "Red Bull - ريد بول",
+        "price": "80 EGP",
+        "category": "soft-drinks",
+        "ingredients": ""
+      },
+      {
+        "name": "Small Water - مياه صغيرة",
+        "price": "10 EGP",
+        "category": "soft-drinks",
+        "ingredients": ""
+      },
+      {
+        "name": "Large Water - مياه كبيرة",
+        "price": "15 EGP",
+        "category": "soft-drinks",
+        "ingredients": ""
+      },
+  
+      {
+        "name": "Mango - مانجو",
+        "price": "65 EGP",
+        "category": "fresh-juice",
+        "ingredients": ""
+      },
+      {
+        "name": "Strawberry - فراولة",
+        "price": "60 EGP",
+        "category": "fresh-juice",
+        "ingredients": ""
+      },
+      {
+        "name": "Guava - جوافة",
+        "price": "60 EGP",
+        "category": "fresh-juice",
+        "ingredients": ""
+      },
+      {
+        "name": "Orange - برتقال",
+        "price": "60 EGP",
+        "category": "fresh-juice",
+        "ingredients": ""
+      },
+      {
+        "name": "Kiwi - كيوي",
+        "price": "65 EGP",
+        "category": "fresh-juice",
+        "ingredients": ""
+      },
+      {
+        "name": "Watermelon - بطيخ",
+        "price": "60 EGP",
+        "category": "fresh-juice",
+        "ingredients": ""
+      },
+      {
+        "name": "Avocado - أفوكادو",
+        "price": "70 EGP",
+        "category": "fresh-juice",
+        "ingredients": ""
+      },
+      {
+        "name": "Lemon - ليمون",
+        "price": "40 EGP",
+        "category": "fresh-juice",
+        "ingredients": ""
+      },
+      {
+        "name": "Lemon Mint - ليمون نعناع",
+        "price": "45 EGP",
+        "category": "fresh-juice",
+        "ingredients": ""
+      },
+      {
+        "name": "Lemon Milk - ليمون باللبن",
+        "price": "50 EGP",
+        "category": "fresh-juice",
+        "ingredients": ""
+      },
+      {
+        "name": "Banana Milk - موز باللبن",
+        "price": "65 EGP",
+        "category": "fresh-juice",
+        "ingredients": ""
+      },
+      {
+        "name": "Guava Milk - جوافة باللبن",
+        "price": "65 EGP",
+        "category": "fresh-juice",
+        "ingredients": ""
+      },
+      {
+        "name": "Mango Berry - مانجو توت",
+        "price": "65 EGP",
+        "category": "fresh-juice",
+        "ingredients": ""
+      },
+      {
+        "name": "Blended Yogurt - زبادي خلاط",
+        "price": "40 EGP",
+        "category": "fresh-juice",
+        "ingredients": ""
+      },
+      {
+        "name": "Yogurt with Honey - زبادي بالعسل",
+        "price": "45 EGP",
+        "category": "fresh-juice",
+        "ingredients": ""
+      },
+      {
+        "name": "Fruit Yogurt - زبادي فواكه",
+        "price": "55 EGP",
+        "category": "fresh-juice",
+        "ingredients": "Berries or Strawberry or Mango or Banana | توت او فراولة او مانجو او موز"
+      },
+      {
+        "name": "Florida - فلوريدا",
+        "price": "70 EGP",
+        "category": "cocktail",
+        "ingredients": "Mango - Strawberry - Guava | مانجو - فراولة - جوافة"
+      },
+      {
+        "name": "Pina Colada - بيناكولادا",
+        "price": "65 EGP",
+        "category": "cocktail",
+        "ingredients": "Pineapple - Coconut | أناناس - جوز هند"
+      },
+      {
+        "name": "Mango Magic - مانجو ماچيك",
+        "price": "75 EGP",
+        "category": "cocktail",
+        "ingredients": "Mango - Banana - Honey - Ice Cream | مانجو - موز - عسل - آيس كريم"
+      },
+      {
+        "name": "Chocolate Mango - شيكولاتة مانجو",
+        "price": "65 EGP",
+        "category": "cocktail",
+        "ingredients": "Nutella - Mango | نوتيلا - مانجو"
+      },
+      {
+        "name": "Mango Kiwi - مانجو كيوي",
+        "price": "70 EGP",
+        "category": "cocktail",
+        "ingredients": ""
+      },
+      {
+        "name": "Banana Kiwi - موز كيوي",
+        "price": "70 EGP",
+        "category": "cocktail",
+        "ingredients": ""
+      },
+      {
+        "name": "Watermelon Mint - بطيخ نعناع",
+        "price": "65 EGP",
+        "category": "cocktail",
+        "ingredients": ""
+      },
+      {
+        "name": "Hawaii Cocktail - هاواي كوكتيل",
+        "price": "75 EGP",
+        "category": "cocktail",
+        "ingredients": "Banana - Mango - Strawberry - Milk | موز - مانجو - فراولة - لبن"
+      },
+      {
+        "name": "Blue Passion - بلو باشون",
+        "price": "55 EGP",
+        "category": "cocktail",
+        "ingredients": ""
+      },
+      {
+        "name": "Mojito - موخيتو",
+        "price": "55 EGP",
+        "category": "cocktail",
+        "ingredients": ""
+      },
+      {
+        "name": "Sunshine - صن شاين",
+        "price": "55 EGP",
+        "category": "cocktail",
+        "ingredients": ""
+      },
+      {
+        "name": "Cherry Cola - شيري كولا",
+        "price": "60 EGP",
+        "category": "cocktail",
+        "ingredients": "Berries - Pomegranate - Mint Syrup | توت - رمان - سيرب نعناع"
+      },
+      {
+        "name": "Hakuna Matata - هاكوناماتاتا",
+        "price": "70 EGP",
+        "category": "cocktail",
+        "ingredients": "Mango - Strawberry - Kiwi - Ice Cream | مانجو - فراولة - كيوي - آيس كريم"
+      },
+      {
+        "name": "Power Drink - باور درينك",
+        "price": "85 EGP",
+        "category": "cocktail",
+        "ingredients": "Kiwi - Banana - Mango - Avocado - Ice Cream - Nuts | كيوي - موز - مانجو - أفوكادو - آيس كريم - مكسرات"
+      },
+      {
+        "name": "golden - جولدن",
+        "price": "75 EGP",
+        "category": "cocktail",
+        "ingredients": "Cantaloupe - Watermelon - Vanilla Ice Cream | كنتلوب - بطيخ - آيس كريم فانيليا"
+      },
+  
+      {
+        "name": "Chocolate Milkshake - ميلك شيك شيكولاته",
+        "price": "70 EGP",
+        "category": "milkshake",
+        "ingredients": ""
+      },
+      {
+        "name": "Vanilla Milkshake - ميلك شيك فانيليا",
+        "price": "70 EGP",
+        "category": "milkshake",
+        "ingredients": ""
+      },
+      {
+        "name": "Caramel Milkshake - ميلك شيك كراميل",
+        "price": "70 EGP",
+        "category": "milkshake",
+        "ingredients": ""
+      },
+      {
+        "name": "Nutella Milkshake - ميلك شيك نوتيلا",
+        "price": "80 EGP",
+        "category": "milkshake",
+        "ingredients": ""
+      },
+      {
+        "name": "Kit Kat Milkshake - ميلك شيك كيت كات",
+        "price": "80 EGP",
+        "category": "milkshake",
+        "ingredients": ""
+      },
+      {
+        "name": "Oreo Milkshake - ميلك شيك اوريو",
+        "price": "75 EGP",
+        "category": "milkshake",
+        "ingredients": ""
+      },
+      {
+        "name": "Lotus Milkshake - ميلك شيك لوتس",
+        "price": "70 EGP",
+        "category": "milkshake",
+        "ingredients": ""
+      },
+      {
+        "name": "Mango Milkshake - ميلك شيك مانجو",
+        "price": "70 EGP",
+        "category": "milkshake",
+        "ingredients": ""
+      },
+      {
+        "name": "Strawberry Milkshake - ميلك شيك فراولة",
+        "price": "70 EGP",
+        "category": "milkshake",
+        "ingredients": ""
+      },
+      {
+        "name": "Berry Milkshake - ميلك شيك توت",
+        "price": "70 EGP",
+        "category": "milkshake",
+        "ingredients": ""
+      },
+      {
+        "name": "Avocado Milkshake - ميلك شيك افوكادو",
+        "price": "85 EGP",
+        "category": "milkshake",
+        "ingredients": ""
+      },
+  
+      {
+        "name": "Mix Grill - ميكس جريل",
+        "price": "295 EGP",
+        "category": "main-dish",
+        "ingredients": "Steak, Kofta, sausage, Shish Served with basmati rice, Fries, and green salad | ستيك, كفتة, سجق, شيش يقدم مع ارز بسمتي و بطاطس و سلطة خضراء"
+      },
+      {
+        "name": "Beef Stroganoff - بيف استراجانوف",
+        "price": "275 EGP",
+        "category": "main-dish",
+        "ingredients": "Served with basmati rice, Fries, and green salad | يقدم مع ارز بسمتي و بطاطس و سلطة خضراء"
+      },
+      {
+        "name": "Beef Mushroom - بيف مشروم",
+        "price": "265 EGP",
+        "category": "main-dish",
+        "ingredients": "Served with basmati rice, Fries, and green salad | يقدم مع ارز بسمتي و بطاطس و سلطة خضراء"
+      },
+      {
+        "name": "Cordon Bleu - كوردن بلو",
+        "price": "255 EGP",
+        "category": "main-dish",
+        "ingredients": "Served with basmati rice, Fries, and coleslaw salad | يقدم مع ارز بسمتي و بطاطس و سلطة كلو سلو"
+      },
+      {
+        "name": "Fajita - فاهيتا",
+        "price": "250 EGP",
+        "category": "main-dish",
+        "ingredients": "Served with basmati rice, Fries, and coleslaw salad | يقدم مع ارز بسمتي و بطاطس و سلطة كلو سلو"
+      },
+      {
+        "name": "Shish Tawook - شيش طاووق",
+        "price": "250 EGP",
+        "category": "main-dish",
+        "ingredients": "Served with basmati rice, Fries, and coleslaw salad | يقدم مع ارز بسمتي و بطاطس و سلطة كلو سلو"
+      },
+      {
+        "name": "Mix Chicken - ميكس فراخ",
+        "price": "260 EGP",
+        "category": "main-dish",
+        "ingredients": "Cordon Bleu, Pane, Strips Served with basmati rice, Fries, and coleslaw salad | كوردن بلو, بانيه, استربس يقدم مع ارز بسمتي و بطاطس و سلطة كلو سلو"
+      },
+      {
+        "name": "Pane - بانيه",
+        "price": "235 EGP",
+        "category": "main-dish",
+        "ingredients": "Served with basmati rice, Fries, and coleslaw salad | يقدم مع ارز بسمتي و بطاطس و سلطة كلو سلو"
+      },
+      {
+        "name": "Mexicano Pasta - مكرونة ميكسيكانو",
+        "price": "95 EGP",
+        "category": "pasta",
+        "ingredients": "Red Sauce - Hot Dog - Vegetables | صوص أحمر - هوت دوج - خضار"
+      },
+      {
+        "name": "Arabiata Pasta - مكرونة أربياتا",
+        "price": "75 EGP",
+        "category": "pasta",
+        "ingredients": "Red Sauce - Mushroom - Vegetables | صوص أحمر - مشروم - خضار"
+      },
+      {
+        "name": "Alfredo Pasta - مكرونة ألفريدو",
+        "price": "130 EGP",
+        "category": "pasta",
+        "ingredients": "White Sauce - Mushroom - Chicken | صوص أبيض - مشروم - قطع فراخ"
+      },
+      {
+        "name": "Negresco Pasta - مكرونة نجرسكو",
+        "price": "140 EGP",
+        "category": "pasta",
+        "ingredients": "White Sauce - Chicken - Mozzarella | صوص أبيض - قطع فراخ - موتزاريلا"
+      },
+      {
+        "name": "Bolognese Pasta - مكرونة بولونيز",
+        "price": "125 EGP",
+        "category": "pasta",
+        "ingredients": "Red Sauce - Minced Beef | صوص أحمر - لحم مفروم"
+      },
+      {
+        "name": "Shrimp Pasta - مكرونة جمبري",
+        "price": "210 EGP",
+        "category": "pasta",
+        "ingredients": "Red Sauce - Shrimp - Vegetables | صوص أحمر - جمبري - خضار"
+      },
+      {
+        "name": "Chinese Noodles - نودلز صيني",
+        "price": "85 EGP",
+        "category": "pasta",
+        "ingredients": "Soy Sauce - Noodles - Vegetables | صوص صويا - نودلز - خضار"
+      },
+  
+      {
+        "name": "Margherita Pizza - بيتزا مارجريتا",
+        "price": "105 EGP",
+        "category": "pizza",
+        "ingredients": "Pizza Sauce - Mozzarella - Oregano | صوص بيتزا - موتزاريلا - ريحان"
+      },
+      {
+        "name": "Vegetable Pizza - بيتزا خضار",
+        "price": "110 EGP",
+        "category": "pizza",
+        "ingredients": "Pizza Sauce - Mozzarella - Pepper - Olives - Oregano | صوص بيتزا - موتزاريلا - فلفل - زيتون - ريحان"
+      },
+      {
+        "name": "Mushroom Pizza - بيتزا مشروم",
+        "price": "125 EGP",
+        "category": "pizza",
+        "ingredients": "Pizza Sauce - Mozzarella - Vegetables - Mushroom - Oregano | صوص بيتزا - موتزاريلا - خضار - مشروم - ريحان"
+      },
+      {
+        "name": "Bolognese Pizza - بيتزا بولونيز",
+        "price": "145 EGP",
+        "category": "pizza",
+        "ingredients": "Pizza Sauce - Mozzarella - Minced Meat - Oregano | صوص بيتزا - موتزاريلا - لحم مفروم - ريحان"
+      },
+      {
+        "name": "Crispy Chicken Pizza - بيتزا كريسبي",
+        "price": "125 EGP",
+        "category": "pizza",
+        "ingredients": "Pizza Sauce - Mozzarella - Crispy Chicken - Oregano | صوص بيتزا - موتزاريلا - فراخ كريسبي - ريحان"
+      },
+      {
+        "name": "Cheese Mix Pizza - بيتزا ميكس جبن",
+        "price": "125 EGP",
+        "category": "pizza",
+        "ingredients": "Pizza Sauce - Mozzarella - Cheddar - Roumy - Oregano | صوص بيتزا - موتزاريلا - شيدر - رومي - ريحان"
+      },
+      {
+        "name": "Chicken Ranch Pizza - بيتزا فراخ رانش",
+        "price": "165 EGP",
+        "category": "pizza",
+        "ingredients": "Pizza Sauce - Chicken - Mozzarella - Ranch Sauce - Oregano | صوص بيتزا - قطع فراخ - موتزاريلا - صوص رانش - ريحان"
+      },
+      {
+        "name": "Chicken BBQ Pizza - بيتزا فراخ باربكيو",
+        "price": "165 EGP",
+        "category": "pizza",
+        "ingredients": "Pizza Sauce - Chicken - Mozzarella - BBQ Sauce - Oregano | صوص بيتزا - قطع فراخ - موتزاريلا - صوص باربكيو - ريحان"
+      },
+      {
+        "name": "Chicken Mix Pizza - بيتزا ميكس فراخ",
+        "price": "145 EGP",
+        "category": "pizza",
+        "ingredients": "Pizza Sauce - Crispy Chicken - Chicken Strips - Cordon Bleu - Mozzarella - Oregano | صوص بيتزا - فراخ كريسبي - استربس - كوردن بلو - موتزاريلا - ريحان"
+      },
+      {
+        "name": "Smoked Meat Mix Pizza - بيتزا ميكس لحوم مدخنة",
+        "price": "140 EGP",
+        "category": "pizza",
+        "ingredients": "Pizza Sauce - Salami - Smoked Turkey - Mozzarella - Oregano | صوص بيتزا - سلامي - تركي مدخن - موتزاريلا - ريحان"
+      },
+      {
+        "name": "Hot Dog Pizza - بيتزا هوت دوج",
+        "price": "135 EGP",
+        "category": "pizza",
+        "ingredients": "Pizza Sauce - Hot Dog - Mozzarella - Oregano | صوص بيتزا - هوت دوج - موتزاريلا - ريحان"
+      },
+      {
+        "name": "Sausage Pizza - بيتزا سجق",
+        "price": "145 EGP",
+        "category": "pizza",
+        "ingredients": "Pizza Sauce - Sausage - Mozzarella - Oregano | صوص بيتزا - سجق - موتزاريلا - ريحان"
+      },
+      {
+        "name": "Pastrami Pizza - بيتزا بسطرمة",
+        "price": "145 EGP",
+        "category": "pizza",
+        "ingredients": "Pizza Sauce - Pastrami - Mozzarella - Oregano | صوص بيتزا - بسطرمة - موتزاريلا - ريحان"
+      },
+      {
+        "name": "Super Supreme Pizza - بيتزا سوبر سوبريم",
+        "price": "165 EGP",
+        "category": "pizza",
+        "ingredients": "Pizza Sauce - Minced Meat - Salami - Hot Dog - Mozzarella - Oregano | صوص بيتزا - لحم مفروم - سلامي - هوت دوج - موتزاريلا - ريحان"
+      },
+      {
+        "name": "Salami Pizza - بيتزا سلامي",
+        "price": "135 EGP",
+        "category": "pizza",
+        "ingredients": "Pizza Sauce - Salami - Mozzarella - Oregano | صوص بيتزا - سلامي - موتزاريلا - ريحان"
+      },
+      {
+        "name": "Pepperoni Pizza - بيتزا بيبروني",
+        "price": "130 EGP",
+        "category": "pizza",
+        "ingredients": "Pizza Sauce - Pepperoni - Mozzarella - Oregano | صوص بيتزا - بيبروني - موتزاريلا - ريحان"
+      },
+      {
+        "name": "Tuna Pizza - بيتزا تونة",
+        "price": "140 EGP",
+        "category": "pizza",
+        "ingredients": "Pizza Sauce - Tuna - Mozzarella - Oregano | صوص بيتزا - تونة - موتزاريلا - ريحان"
+      },
+      {
+        "name": "Shrimp Pizza - بيتزا جمبري",
+        "price": "210 EGP",
+        "category": "pizza",
+        "ingredients": "Pizza Sauce - Shrimp - Mozzarella - Oregano | صوص بيتزا - جمبري - موتزاريلا - ريحان"
+      },
+      {
+        "name": "Sea Ranch Pizza - بيتزا سي رانش",
+        "price": "235 EGP",
+        "category": "pizza",
+        "ingredients": "Pizza Sauce - Shrimp - Crab Sticks - Mozzarella - Ranch Sauce - Oregano | صوص بيتزا - جمبري - اصابع كابوريا - موتزاريلا - رانش - ريحان"
+      },
+  
+      {
+        "name": "Sausage Pan - طاسة سجق",
+        "price": "130 EGP",
+        "category": "pans",
+        "ingredients": ""
+      },
+      {
+        "name": "Cordon Bleu Pan - طاسة كوردن بلو",
+        "price": "130 EGP",
+        "category": "pans",
+        "ingredients": ""
+      },
+      {
+        "name": "Crispy Pan - طاسة كريسبي",
+        "price": "120 EGP",
+        "category": "pans",
+        "ingredients": ""
+      },
+      {
+        "name": "Strips Pan - طاسة استربس",
+        "price": "130 EGP",
+        "category": "pans",
+        "ingredients": ""
+      },
+      {
+        "name": "Shrimp Pan - طاسة جمبري",
+        "price": "200 EGP",
+        "category": "pans",
+        "ingredients": ""
+      },
+      {
+        "name": "Smoked Meat Pan - طاسة لحم مدخن",
+        "price": "125 EGP",
+        "category": "pans",
+        "ingredients": ""
+      },
+      {
+        "name": "Hot Dog Pan - طاسة هوت دوج",
+        "price": "125 EGP",
+        "category": "pans",
+        "ingredients": ""
+      },
+      {
+        "name": "Mix Chicken Pan - طاسة ميكس فراخ",
+        "price": "140 EGP",
+        "category": "pans",
+        "ingredients": ""
+      },
+  
+      {
+        "name": "Fries Crepe - كريب بطاطس",
+        "price": "75 EGP",
+        "category": "crepe",
+        "ingredients": ""
+      },
+      {
+        "name": "Mexicano Crepe - كريب مكسيكانو",
+        "price": "90 EGP",
+        "category": "crepe",
+        "ingredients": ""
+      },
+      {
+        "name": "Hot Dog Crepe - كريب هوت دوج",
+        "price": "85 EGP",
+        "category": "crepe",
+        "ingredients": ""
+      },
+      {
+        "name": "Cheese Mix Crepe - كريب ميكس جبن",
+        "price": "85 EGP",
+        "category": "crepe",
+        "ingredients": ""
+      },
+      {
+        "name": "Fresh Pane Crepe - كريب بانيه فريش",
+        "price": "115 EGP",
+        "category": "crepe",
+        "ingredients": ""
+      },
+      {
+        "name": "Kofta Crepe - كريب كفتة حاتي",
+        "price": "110 EGP",
+        "category": "crepe",
+        "ingredients": ""
+      },
+      {
+        "name": "Crispy Crepe - كريب كريسبي",
+        "price": "95 EGP",
+        "category": "crepe",
+        "ingredients": ""
+      },
+      {
+        "name": "Strips Crepe - كريب استربس",
+        "price": "100 EGP",
+        "category": "crepe",
+        "ingredients": ""
+      },
+      {
+        "name": "Cordon Bleu Crepe - كريب كوردن بلو",
+        "price": "115 EGP",
+        "category": "crepe",
+        "ingredients": ""
+      },
+      {
+        "name": "Fajita Crepe - كريب فاهيتا",
+        "price": "115 EGP",
+        "category": "crepe",
+        "ingredients": ""
+      },
+      {
+        "name": "Shish Tawook Crepe - كريب شيش طاووق",
+        "price": "115 EGP",
+        "category": "crepe",
+        "ingredients": ""
+      },
+      {
+        "name": "Mix Chicken Crepe - كريب ميكس فراخ",
+        "price": "110 EGP",
+        "category": "crepe",
+        "ingredients": ""
+      },
+      {
+        "name": "Beef Burger Crepe - كريب برجر لحم",
+        "price": "130 EGP",
+        "category": "crepe",
+        "ingredients": ""
+      },
+      {
+        "name": "Chicken Burger Crepe - كريب برجر فراخ",
+        "price": "105 EGP",
+        "category": "crepe",
+        "ingredients": ""
+      },
+      {
+        "name": "Mushroom Crepe - كريب مشروم",
+        "price": "90 EGP",
+        "category": "crepe",
+        "ingredients": ""
+      },
+      {
+        "name": "Fries Mushroom Mix Crepe - كريب ميكس بطاطس مشروم",
+        "price": "115 EGP",
+        "category": "crepe-mix",
+        "ingredients": ""
+      },
+      {
+        "name": "Pane Fries Crepe - كريب بطاطس بانيه",
+        "price": "135 EGP",
+        "category": "crepe-mix",
+        "ingredients": "Vegetables - Ketchup - Mayonnaise - Mozzarella | خضار - كاتشب - مايونيز - موتزاريلا"
+      },
+      {
+        "name": "Strips Fries Crepe - كريب بطاطس استربس",
+        "price": "135 EGP",
+        "category": "crepe-mix",
+        "ingredients": "Vegetables - Ketchup - Mayonnaise - Mozzarella | خضار - كاتشب - مايونيز - موتزاريلا"
+      },
+      {
+        "name": "Cordon Bleu Fries Crepe - كريب بطاطس كوردن بلو",
+        "price": "135 EGP",
+        "category": "crepe-mix",
+        "ingredients": "Vegetables - Ketchup - Mayonnaise - Mozzarella | خضار - كاتشب - مايونيز - موتزاريلا"
+      },
+      {
+        "name": "El-Wa7sh Crepe - كريب الوحش",
+        "price": "175 EGP",
+        "category": "crepe-mix",
+        "ingredients": "Pane - Crispy - Hotdog - Barbecue Sauce - Vegetables - Mozzarella | بانيه - كريسبي - هوت دوج - صوص باربكيو - خضار - موتزاريلا"
+      },
+      {
+        "name": "Shatshoot Crepe - كريب شطشوط",
+        "price": "185 EGP",
+        "category": "crepe-mix",
+        "ingredients": "Strips - Crispy - Jalapeno Sauce - Vegetables - Mozzarella - Ketchup - Mayonnaise | استربس - كريسبي - هالبينيو صوص - خضار - موتزاريلا - كاتشب - مايونيز"
+      },
+      {
+        "name": "Basha Masr Crepe - كريب باشا مصر",
+        "price": "175 EGP",
+        "category": "crepe-mix",
+        "ingredients": "Strips - Hotdog - Crispy - Cheddar Sauce - Vegetables - Mozzarella - Ketchup - Mayonnaise | استربس - هوت دوج - كريسبي - صوص شيدر - خضار - موتزاريلا - كاتشب - مايونيز"
+      },
+      {
+        "name": "El-King Crepe - كريب الكينج",
+        "price": "175 EGP",
+        "category": "crepe-mix",
+        "ingredients": "Hotdog - Strips - Fries - Cheddar Sauce - Tasty Sauce - Vegetables - Mozzarella | هوت دوج - استربس - بطاطس - صوص شيدر - صوص تيستي - خضار - موتزاريلا"
+      },
+      {
+        "name": "El-Shbrawya Crepe - كريب الشبراوية",
+        "price": "175 EGP",
+        "category": "crepe-mix",
+        "ingredients": "Shish Taouk - Cordon Bleu - Cheddar Sauce - Vegetables - Ketchup - Mayonnaise - Mozzarella | شيش طاووك - كوردن بلو - صوص شيدر - خضار - كاتشب - مايونيز - موتزاريلا"
+      },
+      {
+        "name": "Harley Crepe - كريب هارلي",
+        "price": "185 EGP",
+        "category": "crepe-mix",
+        "ingredients": "Zinger - Crispy - Cordon Bleu - Smoked Turkey - Cheddar Sauce - Vegetables - Ketchup - Mayonnaise - Mozzarella | زنجر - كريسبي - كوردن بلو - تركي مدخن - صوص شيدر - خضار - كاتشب - مايونيز - موتزاريلا"
+      },
+      {
+        "name": "Mix El-Daraweesh Crepe - كريب مكس الدراويش",
+        "price": "245 EGP",
+        "category": "crepe-mix",
+        "ingredients": "Pane - Crispy - Strips - Shish Tawook - Fries - Cheddar Sauce - Tasty Sauce - Vegetables - Mozzarella | بانيه - كريسبي - استربس - شيش - بطاطس - صوص شيدر - صوص تيستي - خضار - موتزاريلا"
+      },
+      {
+        "name": "Hot Dog Sandwich - ساندوتش هوت دوج",
+        "price": "50 EGP",
+        "category": "sandwiches",
+        "ingredients": ""
+      },
+      {
+        "name": "Kofta Sandwich - ساندوتش كفتة",
+        "price": "65 EGP",
+        "category": "sandwiches",
+        "ingredients": ""
+      },
+      {
+        "name": "Crispy Sandwich - ساندوتش كريسبي",
+        "price": "45 EGP",
+        "category": "sandwiches",
+        "ingredients": ""
+      },
+      {
+        "name": "Strips Sandwich - ساندوتش استربس",
+        "price": "65 EGP",
+        "category": "sandwiches",
+        "ingredients": ""
+      },
+      {
+        "name": "Cordon Bleu Sandwich - ساندوتش كوردن بلو",
+        "price": "65 EGP",
+        "category": "sandwiches",
+        "ingredients": ""
+      },
+      {
+        "name": "Fajita Sandwich - ساندوتش فاهيتا",
+        "price": "70 EGP",
+        "category": "sandwiches",
+        "ingredients": ""
+      },
+      {
+        "name": "Shish Tawook Sandwich - ساندوتش شيش طاووق",
+        "price": "70 EGP",
+        "category": "sandwiches",
+        "ingredients": ""
+      },
+      {
+        "name": "Pane Sandwich - ساندوتش بانيه",
+        "price": "65 EGP",
+        "category": "sandwiches",
+        "ingredients": ""
+      },
+      {
+        "name": "Mexicano Sandwich - ساندوتش ميكسيكانو",
+        "price": "55 EGP",
+        "category": "sandwiches",
+        "ingredients": ""
+      },
+      {
+        "name": "Beef Burger Sandwich - ساندوتش برجر لحم",
+        "price": "85 EGP",
+        "category": "sandwiches",
+        "ingredients": ""
+      },
+      {
+        "name": "Chicken Burger Sandwich - ساندوتش برجر فراخ",
+        "price": "75 EGP",
+        "category": "sandwiches",
+        "ingredients": ""
+      },
+      {
+        "name": "Beef Burger Combo - ساندوتش برجر لحم كومبو",
+        "price": "135 EGP",
+        "category": "sandwiches",
+        "ingredients": "Served With Fries & Cola | يقدم مع بطاطس و كولا"
+      },
+      {
+        "name": "Chicken Burger Combo - ساندوتش برجر فراخ كومبو",
+        "price": "120 EGP",
+        "category": "sandwiches",
+        "ingredients": "Served With Fries & Cola | يقدم مع بطاطس و كولا"
+      },
+      {
+        "name": "French Fries Sandwich - ساندوتش بطاطس",
+        "price": "30 EGP",
+        "category": "sandwiches",
+        "ingredients": ""
+      },
+      {
+        "name": "Mushroom Sandwich - ساندوتش مشروم",
+        "price": "45 EGP",
+        "category": "sandwiches",
+        "ingredients": ""
+      },
+      {
+        "name": "Shrimp Sandwich - ساندوتش جمبري",
+        "price": "130 EGP",
+        "category": "sandwiches",
+        "ingredients": ""
+      },
+      {
+        "name": "Roumi Cheese Sandwich - ساندوتش جبن رومي",
+        "price": "40 EGP",
+        "category": "sandwiches",
+        "ingredients": ""
+      },
+      {
+        "name": "Green Salad - سلطة خضراء",
+        "price": "45 EGP",
         "category": "salads",
-        "ingredients": "Lorem, deren, trataro, filede, nerada"
+        "ingredients": ""
+      },
+      {
+        "name": "Tuna Salad - سلطة تونة",
+        "price": "75 EGP",
+        "category": "salads",
+        "ingredients": ""
+      },
+      {
+        "name": "Coleslaw - سلطة كول سلو",
+        "price": "65 EGP",
+        "category": "salads",
+        "ingredients": ""
+      },
+      {
+        "name": "Greek Salad - سلطة يوناني",
+        "price": "70 EGP",
+        "category": "salads",
+        "ingredients": ""
+      },
+      {
+        "name": "Caesar Salad - سلطة سيزر",
+        "price": "85 EGP",
+        "category": "salads",
+        "ingredients": ""
+      },
+      {
+        "name": "Small Fries Plate - طبق بطاطس صغير",
+        "price": "25 EGP",
+        "category": "appetizers",
+        "ingredients": ""
+      },
+      {
+        "name": "Large Fries Plate - طبق بطاطس كبير",
+        "price": "35 EGP",
+        "category": "appetizers",
+        "ingredients": ""
+      },
+      {
+        "name": "Fries with Meat & Cheese - بطاطس باللحم المفروم و الجبن",
+        "price": "90 EGP",
+        "category": "appetizers",
+        "ingredients": ""
+      },
+      {
+        "name": "Fries with Chicken & Cheese - بطاطس بقطع الفراخ و الجبن",
+        "price": "80 EGP",
+        "category": "appetizers",
+        "ingredients": ""
+      },
+      {
+        "name": "Popcorn - فشار",
+        "price": "15 EGP",
+        "category": "snacks",
+        "ingredients": ""
+      },
+      {
+        "name": "Hummus El Sham - حمص الشام",
+        "price": "35 EGP",
+        "category": "snacks",
+        "ingredients": ""
+      },
+      {
+        "name": "Cheese - جبن",
+        "price": "25 EGP",
+        "category": "extras",
+        "ingredients": "Cheddar or Mozzarella | شيدر او موتزاريلا"
+      },
+      {
+        "name": "Egg - بيض",
+        "price": "15 EGP",
+        "category": "extras",
+        "ingredients": ""
+      },
+      {
+        "name": "Pane - بانيه",
+        "price": "50 EGP",
+        "category": "extras",
+        "ingredients": ""
+      },
+      {
+        "name": "Fresh Cordon Bleu - كوردن بلو فريش",
+        "price": "50 EGP",
+        "category": "extras",
+        "ingredients": ""
+      },
+      {
+        "name": "Strips - استربس",
+        "price": "40 EGP",
+        "category": "extras",
+        "ingredients": ""
+      },
+      {
+        "name": "Bread - خبز",
+        "price": "15 EGP",
+        "category": "extras",
+        "ingredients": ""
+      },
+      {
+        "name": "Vegetables - خضار",
+        "price": "15 EGP",
+        "category": "extras",
+        "ingredients": ""
+      },
+      {
+        "name": "Sauce - صوص",
+        "price": "20 EGP",
+        "category": "extras",
+        "ingredients": "Ranch or BBQ | رانش او باربكيو"
+      },
+      {
+        "name": "2 Scoops Ice Cream - آيس كريم ٢ بولة",
+        "price": "35 EGP",
+        "category": "ice-cream",
+        "ingredients": "Vanilla - Mango - Chocolate - Strawberry | فانيليا - مانجو - شيكولاتة - فراولة"
+      },
+      {
+        "name": "3 Scoops Ice Cream - آيس كريم ٣ بولة",
+        "price": "45 EGP",
+        "category": "ice-cream",
+        "ingredients": "Vanilla - Mango - Chocolate - Strawberry | فانيليا - مانجو - شيكولاتة - فراولة"
+      },
+      {
+        "name": "Topping Sauce - إضافة صوص",
+        "price": "15 EGP",
+        "category": "ice-cream",
+        "ingredients": "Nutella - Lotus - Caramel | نوتيلا - لوتس - كراميل"
+      },
+      {
+        "name": "Nuts - إضافة مكسرات",
+        "price": "25 EGP",
+        "category": "ice-cream",
+        "ingredients": ""
+      },
+      {
+        "name": "Molten Cake - مولتن كيك",
+        "price": "95 EGP",
+        "category": "desserts",
+        "ingredients": "Chocolate or Lotus | شيكولاتة أو لوتس"
+      },
+      {
+        "name": "Cheesecake - تشيز كيك",
+        "price": "65 EGP",
+        "category": "desserts",
+        "ingredients": ""
+      },
+      {
+        "name": "Honey Cake - كيكة العسل",
+        "price": "65 EGP",
+        "category": "desserts",
+        "ingredients": ""
+      },
+      {
+        "name": "Tiramisu - تيراميسو",
+        "price": "60 EGP",
+        "category": "desserts",
+        "ingredients": ""
+      },
+      {
+        "name": "Red velvet cake - ريد ڤيلڤت كيك",
+        "price": "60 EGP",
+        "category": "desserts",
+        "ingredients": ""
+      },
+      {
+        "name": "Tagine - طاجن",
+        "price": "45 EGP",
+        "category": "desserts",
+        "ingredients": "Oreo or Lotus | أوريو أو لوتس"
+      },
+      {
+        "name": "Mini Mix - ميني ميكس",
+        "price": "45 EGP",
+        "category": "desserts",
+        "ingredients": ""
+      },
+      {
+        "name": "Mini Despacito - ميني ديسباسيتو",
+        "price": "35 EGP",
+        "category": "desserts",
+        "ingredients": ""
+      },
+      {
+        "name": "Nutella Waffle - وافل نوتيلا",
+        "price": "70 EGP",
+        "category": "desserts",
+        "ingredients": ""
+      },
+      {
+        "name": "White Chocolate Waffle - وافل شيكولاتة بيضاء",
+        "price": "75 EGP",
+        "category": "desserts",
+        "ingredients": ""
+      },
+      {
+        "name": "Mix Waffle - وافل ميكس",
+        "price": "80 EGP",
+        "category": "desserts",
+        "ingredients": ""
+      },
+      {
+        "name": "Chocolate Fatta - فتة شيكولاتة",
+        "price": "80 EGP",
+        "category": "desserts",
+        "ingredients": ""
+      },
+      {
+        "name": "Chocolate Mix Fatta - فتة شيكولاتة ميكس",
+        "price": "90 EGP",
+        "category": "desserts",
+        "ingredients": ""
+      },
+      {
+        "name": "Nutella Crepe - كريب نوتيلا",
+        "price": "60 EGP",
+        "category": "desserts",
+        "ingredients": ""
+      },
+      {
+        "name": "Fruit Salad - سلطة فواكه",
+        "price": "75 EGP",
+        "category": "desserts",
+        "ingredients": ""
+      },
+      {
+        "name": "Fruit Salad with Ice Cream - سلطة فواكه آيس كريم",
+        "price": "95 EGP",
+        "category": "desserts",
+        "ingredients": ""
+      },
+      {
+        "name": "Om Ali with Nuts - أم علي مكسرات",
+        "price": "70 EGP",
+        "category": "desserts",
+        "ingredients": ""
       }
     ]
   }
