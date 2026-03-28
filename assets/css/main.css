@@ -1725,3 +1725,9 @@ section,
 .contact .php-email-form button[type=submit]:hover {
   background: var(--accent-color);
 }
+
+@media (max-width: 576px) {
+  .hero-content{
+    margin-top: 530px !important;
+  }
+}
