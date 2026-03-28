@@ -1225,7 +1225,7 @@ section,
 }
 
 .menu .menu-ingredients {
-  margin-left: 95px;
+  /* margin-left: 95px; */
   font-style: italic;
   font-size: 14px;
   font-family: var(--nav-font);
