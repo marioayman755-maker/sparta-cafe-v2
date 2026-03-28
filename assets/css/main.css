@@ -1203,7 +1203,7 @@ section,
 
 .menu .menu-content a {
   color: var(--heading-color);
-  /* background: var(--background-color); */
+  background: #191815;
   padding-right: 10px;
   position: relative;
   z-index: 3;
@@ -1216,7 +1216,7 @@ section,
 }
 
 .menu .menu-content span {
-  /* background: var(--background-color); */
+  background: #191815;
   color: var(--accent-color);
   position: relative;
   z-index: 3;
