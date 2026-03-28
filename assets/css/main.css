@@ -1183,7 +1183,7 @@ section,
 }
 
 .menu .menu-content {
-  margin-left: 95px;
+  /* margin-left: 95px; */
   overflow: hidden;
   display: flex;
   justify-content: space-between;
