@@ -1725,10 +1725,3 @@ section,
 .contact .php-email-form button[type=submit]:hover {
   background: var(--accent-color);
 }
-
-/*--------------------------------------------------------------
-# Starter Section Section
---------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
-}
